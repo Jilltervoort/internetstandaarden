@@ -1,0 +1,51 @@
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-evenly;
+    font-size: 150%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+
+}
+
+a:link, a:visited {
+    color: rgb(255, 147, 222);
+    padding: 8px 70px;
+    border: 2px solid rgb(255, 147, 222);
+    border-radius: 2em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    color:white;
+    background-color: rgb(255, 147, 222);
+  }
+
+header img {
+    width: 75%;
+    padding-left: auto;
+    padding-right: auto;
+  }
+ 
+  body {
+    background-color:rgb(14, 13, 87);
+}
+
+main section {
+  display: block;
+  background-color: rgb(211, 243, 0);
+  border: 2px solid rgb(211, 243, 0);
+  border-radius: 2em;
+  margin: 3em 2em;
+}
+
+main section h1{
+  text-align: center;
+  color: rgb(14, 13, 87);
+}
+{
+
+}
