@@ -9,32 +9,88 @@
 
 <body>
     <header>
-        <ul>
+      <nav>
+        <ul class="hoofd-navigatie">
             <li><a href="index.html">Homepage</a></li>
             <li><a href="afleveringen.html">Afleveringen</a></li>
             <li><a href="over-ons.html">Over ons</a></li>
         </ul>
+      </nav>
         
-        <img src="images/logo beroepsgeheim.jpg" alt="logo podcast beroepsgeheim">
-        <p>In beroepsgeheim de podcast nemen wij onze luisteraar mee in het... </p>
-
+        <img src="images/logoberoepsgeheim.jpg" alt="logo beroepsgeheim">
+        <p><strong>Welkom bij Beroepsgeheim!</strong> De podcast waarin we bijzondere beroepen onder de loep nemen en je alles vertellen wat je nog niet wist. Van eventproducers tot piloten, van chefs tot chirurgen we vragen ze het hemd van het lijf over hun carrière en hoe ze zijn gekomen waar ze nu zijn. Heb jij nog geen idee wat je later wilt worden? Of vind je het gewoon leuk om te horen wat anderen doen? Dan zit je hier goed! En... onze gasten delen ook hun beroepsgeheimen tijdens een vragenvuur. Dus, verdien je dáár je brood mee? Je hoort het bij ons!</p>
     </header>
 
-    <main>
-        <section>
+    <main> 
+
+        <section class="newest">
             <h1>NIEUWSTE AFLEVERING</h1>
-            <h2>AFLEVERING 6 - Backstages op je festie</h2>
-            <p>In deze aflevering praten we met een event producer en duiken we in de wereld van het organiseren van feesten en evenementen. “Wat gebeurt er écht achter de schermen van die legendarische party’s? Ontdek de chaos, geheime hacks en verrassende drama’s die je niet op de uitnodiging ziet!”</p>
-            
+            <div>
+                <img src="images/event-producer.png" alt="aflevering event producer tumbnail"/>
+                <div class="newest-text">
+                     <h2>AFLEVERING 6 - Backstages op je festie</h2>
+                     <p>In deze aflevering praten we met een event producer en duiken we in de wereld van het organiseren van feesten en evenementen. “Wat gebeurt er écht achter de schermen van die legendarische party's? Ontdek de chaos, geheime hacks en verrassende drama's die je niet op de uitnodiging ziet!”</p>
+                     <button>luisteren</button>
+                </div>
+            </div>
         </section>
 
-
+        <section class="call-to-action">
+            <h2><strong>Blijf op de hoogte van al ons podcast nieuws!</strong></h2>
+            <div class="email-container">
+                <input type="email" id="email" placeholder="Type hier je e-mailadres" class="email-input">
+                <button type="submit" class="email-button">inschrijven</button>
+              </div>
+              <!-- bronvermelding= HTML: HyperText Markup Language | MDN. (2024, 3 augustus). MDN Web Docs. https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/email-->
+        </section>
     </main>
 
     <footer>
+        <div class="footer-container">
+            <div>
+              <h2>Contact</h2>
+              <nav>
+                <ul>
+                  <li><strong>Email: </strong><a href="mailto:info@beroepsgeheimpodcast.nl">info@beroepsgeheimpodcast.nl</a></li>
+                  <li><strong>Volg ons op: </strong>
+                    <a href="#">Instagram</a> | 
+                    <a href="#">Facebook</a> | 
+                    <a href="#">Tiktok</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
         
-
+            <div>
+              <h2>Luister naar ons op:</h2>
+              <nav>
+                <ul>
+                  <li><a href="#">Spotify</a></li>
+                  <li><a href="#">Apple Podcasts</a></li>
+                  <li><a href="#">Google Podcasts</a></li>
+                </ul>
+              </nav>
+            </div>
+        
+            <div class="footer-legal">
+              <nav>
+                <ul>
+                  <li><a href="#">Privacybeleid</a></li>
+                  <li><a href="#">Gebruiksvoorwaarden</a></li>
+                  <li><a href="#">Disclaimer</a></li>
+                </ul>
+              </nav>
+            </div>
+        
+            <div class="footer-bottom">
+              <p>© 2024 Beroepsgeheim. Alle rechten voorbehouden.</p>
+              <p>Ontwerp door Jill Tervoort.</p>
+            </div>
+        </div>
     </footer>
+
+    <!--Voor de html en css code voor de footer heb ik chat-gpt gebruikt als inspiratiebron, maar deze code wel bijna volledig naar eigen hand gezet-->
     
 </body>
 </html>
+
